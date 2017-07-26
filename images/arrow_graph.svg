@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="278px" viewBox="0 0 39 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow_graph</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="1.52463329%" id="linearGradient-1">
+            <stop stop-color="#FFD795" offset="0%"></stop>
+            <stop stop-color="#8FE000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-3" transform="translate(-331.000000, -5460.000000)" fill="url(#linearGradient-1)">
+            <path d="M359.027221,5605.68215 L356.766119,5718.73729 L362.566099,5718.73729 C364.2188,5718.73729 364.762715,5719.80849 363.771667,5721.12989 L352.36057,5736.34469 C351.372584,5737.662 349.762715,5737.66608 348.771667,5736.34469 L337.36057,5721.12989 C336.372584,5719.81257 336.909273,5718.73729 338.566138,5718.73729 L344.366119,5718.73729 L339.766119,5488.73729 L333.57262,5488.73729 C331.908428,5488.73729 331.310326,5487.62097 332.228353,5486.24393 L348.903884,5461.23064 C349.818597,5459.85857 351.310326,5459.8536 352.228353,5461.23064 L368.903884,5486.24393 C369.818597,5487.616 369.220062,5488.73729 367.559617,5488.73729 L361.366119,5488.73729 L359.354863,5589.30007 L351,5597.65493 L359.027221,5605.68215 Z" id="arrow_graph"></path>
+        </g>
+    </g>
+</svg>

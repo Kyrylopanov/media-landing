@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="34px" viewBox="0 0 7 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow_down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+        <g id="landing-mobile" transform="translate(-184.000000, -594.000000)" fill="#23231E">
+            <path d="M198,610 L171,610 L171,612 L198,612 L198,614 L204,611 L198,608 L198,610 Z" id="arrow_down" transform="translate(187.500000, 611.000000) rotate(-270.000000) translate(-187.500000, -611.000000) "></path>
+        </g>
+    </g>
+</svg>

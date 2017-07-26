@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>lin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+        <g id="footer" transform="translate(-150.000000, -29.000000)" fill="#23231E">
+            <g id="Group-16" transform="translate(60.000000, 29.000000)">
+                <g id="soc">
+                    <path d="M110,20 L106,20 L106,13.001 C106,11.081 105.153,10.01 103.634,10.01 C101.981,10.01 101,11.126 101,13.001 L101,20 L97,20 L97,7 L101,7 L101,8.462 C101,8.462 102.255,6.26 105.083,6.26 C107.912,6.26 110,7.986 110,11.558 L110,20 L110,20 Z M92.442,4.921 C91.093,4.921 90,3.819 90,2.46 C90,1.102 91.093,0 92.442,0 C93.79,0 94.883,1.102 94.883,2.46 C94.884,3.819 93.79,4.921 92.442,4.921 L92.442,4.921 Z M90,20 L95,20 L95,7 L90,7 L90,20 Z" id="lin"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

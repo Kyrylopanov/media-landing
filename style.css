@@ -1,0 +1,2213 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('fonts/Proxima_Nova_Bold.otf');
+}
+
+@font-face {
+  font-family: 'ProximaNova-Black';
+  src: url('fonts/ProximaNova-Black.otf');
+}
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('fonts/ProximaNova-Bold.otf');
+}
+
+@font-face {
+  font-family: 'ProximaNova-BoldIt';
+  src: url('fonts/ProximaNova-BoldIt.otf');
+}
+
+@font-face {
+  font-family: 'ProximaNova-Extrabold';
+  src: url('fonts/ProximaNova-Extrabold.otf');
+}
+
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url('fonts/ProximaNova-Light.otf');
+}
+
+@font-face {
+  font-family: 'ProximaNova-LightItalic';
+  src: url('fonts/ProximaNova-LightItalic.otf');
+}
+
+@font-face {
+  font-family: 'ProximaNova-RegItalic';
+  src: url('fonts/ProximaNova-RegItalic.otf');
+}
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('fonts/ProximaNova-Regular.otf');
+}
+
+@font-face {
+  font-family: 'ProximaNova-RegularItalic';
+  src: url('fonts/ProximaNova-RegularItalic.otf');
+}
+
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url('fonts/ProximaNova-Semibold.otf');
+}
+
+@font-face {
+  font-family: 'ProximaNova-SemiboldItalic';
+  src: url('fonts/ProximaNova-SemiboldItalic.otf');
+}
+
+body, html, * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Proxima Nova', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  background-color: transparent;
+}
+
+
+/* -------------- Head ---------------*/
+
+button {
+  outline: none;
+}
+
+.inputText.placeholder::-webkit-input-placeholder {
+  color: #F34A65;
+  opacity: 1;
+}
+
+.inputText.placeholder::-moz-input-placeholder {
+  color: #F34A65;
+  opacity: 1;
+}
+
+.inputText.placeholder::-ms-input-placeholder {
+  color: #F34A65;
+  opacity: 1;
+}
+
+.emailInput.placeholder::-webkit-input-placeholder {
+  color: #F34A65;
+  opacity: 1;
+}
+
+.emailInput.placeholder::-moz-input-placeholder {
+  color: #F34A65;
+  opacity: 1;
+}
+
+.emailInput.placeholder::-ms-input-placeholder {
+  color: #F34A65;
+  opacity: 1;
+}
+
+.container.head {
+  height: 100vh;
+}
+
+.background-video {
+  height: 1007px;
+  position: relative;
+  opacity: 0.3;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.background-video video {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+/*.container.head>.contChildHead {
+  margin-top: 15px;
+  height: 30px;
+}*/
+
+.headChild {
+  cursor: pointer;
+}
+
+.container.head .headChild {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  cursor: inherit;
+}
+
+.headChild:nth-child(1) {
+  background: url(images/logo@2x.png) no-repeat;
+  width: 115px;
+  height: 26px;
+  background-size: cover;
+  margin-left: 93px;
+}
+
+.headChild:nth-child(2) {
+  color: #23231E;
+  font-family: "Proxima Nova";
+  right: 250px;
+  top: 17px;
+}
+
+.emailImg {
+  background: url(images/email@2x.png) no-repeat;
+  width: 19px;
+  height: 15px;
+  background-size: 100%;
+  display: inline-block;
+  position: absolute;
+  right: 173px;
+  top: 3px;
+}
+
+.email {
+  font-size: 16px;
+  display: inline-block;
+}
+
+.headChildLast {
+  right: 60px;
+  color: #23231E;
+  font-family: "Proxima Nova";
+  top: 17px;
+}
+
+.phoneImg {
+  background: url(images/phone@2x.png) no-repeat;
+  width: 19px;
+  height: 19px;
+  background-size: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 132px;
+}
+
+.phone {
+  display: inline-block;
+}
+
+.headMidTxt {
+  margin: 0 auto;
+  color: #23231E;
+  font-family: "Proxima Nova";
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 58px;
+  text-align: center;
+  position: absolute;
+  top: 291px;
+  width: 1000px;
+  left: 0;
+  right: 0;
+}
+
+.vodafoneCont:hover, .choosicCont:hover, .noHalfTimeCont:hover, .sparkCont:hover {
+  cursor: pointer;
+}
+
+.talkBtn {
+  background: url(images/arrow_right@2x.png) no-repeat 127px;
+  background-size: 33px;
+  margin: 0 auto;
+  display: block;
+  height: 54px;
+  width: 200px;
+  border-radius: 100px;
+  border: none;
+  background-color: #FFFFFF;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: left;
+  cursor: pointer;
+  position: absolute;
+  top: 454px;
+  left: 0;
+  right: 0;
+}
+
+.talkBtn p {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.mouse {
+  background: url(images/scroll_icon@2x.png) no-repeat center;
+  height: 42px;
+  width: 28px;
+  background-size: 27px;
+  margin: 0 auto;
+  position: absolute;
+  margin-top: -130px;
+  left: 0;
+  right: 0;
+}
+
+.gradient {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: -24px;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f5f5f5 0%, #ffffff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f5f5f5 0%, #ffffff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(234, 234, 234)', endColorstr='#ffffff', GradientType=0);
+  /* IE6-9 */
+}
+
+.designAndDev {
+  margin: 40px auto 0;
+  height: 524px;
+  width: 1080px;
+}
+
+.designAndDev h1 {
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 54px;
+  line-height: 58px;
+  text-align: center;
+}
+
+.underHead {
+  margin: 10px auto 0;
+  /*  height: 64px;*/
+  width: 800px;
+  opacity: 0.6;
+  color: #23231E;
+  font-family: "ProximaNova-Regular";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+}
+
+.projects>.underHead {
+  margin-bottom: 50px;
+}
+
+.designAndDevChild {
+  display: inline-block;
+  margin-top: 73px;
+  vertical-align: top;
+}
+
+.designAndDevChildImg1 {
+  background: url(images/development@2x.png) no-repeat left;
+  height: 40px;
+  width: 42px;
+  background-size: 100%;
+  display: block;
+}
+
+.designAndDevChildImg2 {
+  background: url(images/apps@2x.png) no-repeat left;
+  height: 55px;
+  width: 32px;
+  background-size: 100%;
+  display: block;
+}
+
+.designAndDevChild h2, .vodafoneCont h2 {
+  margin-top: 27px;
+  color: #23231E;
+  font-family: "Proxima Nova";
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 34px;
+}
+
+.designAndDevChild .underHead {
+  margin: 0;
+  margin-top: 9px;
+  height: 84px;
+  width: 280px;
+  opacity: 0.6;
+  color: #23231E;
+  font-family: "ProximaNova-Regular";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+
+div.designAndDevChild:nth-of-type(2) h2 {
+  margin-top: 11px;
+}
+
+div.designAndDevChild:nth-of-type(2) {
+  padding-left: 119px;
+}
+
+.designAndDevChildImg3 {
+  background: url(images/design@2x.png) no-repeat left;
+  height: 46px;
+  width: 46px;
+  background-size: 100%;
+  display: block;
+}
+
+div.designAndDevChild:nth-of-type(3) {
+  float: right;
+}
+
+div.designAndDevChild:nth-of-type(3) h2 {
+  margin-top: 19px;
+}
+
+.hireBtn {
+  background: url(images/arrow_right@2x.png) no-repeat 134px;
+  background-size: 33px;
+  margin: 71px auto 0;
+  display: block;
+  height: 54px;
+  width: 200px;
+  border-radius: 100px;
+  border: none;
+  background-color: #F4F4F4;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.hireBtn p {
+  display: inline-block;
+  margin-left: 31px;
+}
+
+
+/* -------------- Head End ---------------*/
+
+
+/* -------------- Main Content ---------------*/
+
+.projects {
+  margin: 242px auto 0;
+  height: 3196px;
+  width: 1081px;
+}
+
+.projects h1 {
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 54px;
+  f ont-weight: bold;
+  line-height: 58px;
+  text-align: center;
+}
+
+.vodafonePic {
+  background: url(images/home-case-vodafone@2x.png) no-repeat right;
+  background-size: 100%;
+  margin: 0 auto;
+  height: 520px;
+  width: 1000px;
+  float: right;
+  position: relative;
+  top: 120px;
+  opacity: 0.01;
+}
+
+.vodafoneCont {
+  height: 350px;
+  width: 350px;
+  background-color: #FFFFFF;
+  box-shadow: 0 6px 25px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  margin-top: 450px;
+  z-index: 1000;
+}
+
+.vodafoneCont h2, .choosicCont h2, .noHalfTimeCont h2, .sparkCont h2 {
+  color: #23231E;
+  font-family: "Proxima Nova";
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 35px;
+  margin-left: 38px;
+  margin-top: 43px;
+}
+
+.choosicCont h2, .noHalfTimeCont h2, .sparkCont h2, .vodafoneCont h2 {
+  position: absolute;
+}
+
+.viewCase p {
+  display: inline-block;
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 23px;
+  margin-top: 76px;
+  margin-left: 38px;
+}
+
+.viewCaseArrow {
+  background: url(images/arrow_right@2x.png) no-repeat 20px;
+  background-size: 33px;
+  margin: 0px auto;
+  display: inline-block;
+  height: 11px;
+  width: 165px;
+  text-align: left;
+}
+
+.choosic {
+  background: url(images/home-case-choosic@2x.png) no-repeat right;
+  background-size: 100%;
+  margin: 0 auto;
+  top: 400px;
+  height: 520px;
+  width: 1000px;
+  float: left;
+  position: relative;
+  opacity: 0.01;
+}
+
+.choosicCont {
+  height: 350px;
+  width: 350px;
+  background-color: #FFFFFF;
+  box-shadow: 0 6px 25px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
+  float: right;
+  top: -55px;
+  margin-top: 270px;
+}
+
+.vodafoneCont .underHead, .choosicCont .underHead, .noHalfTimeCont .underHead, .sparkCont .underHead {
+  margin: 0;
+  top: 87px;
+  height: 120px;
+  width: 270px;
+  opacity: 0.5;
+  color: #23231E;
+  font-family: "ProximaNova-Regular";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  margin-left: 38px;
+  position: absolute;
+}
+
+.mobileProjects .choosicCont .viewCaseArrow, .mobileProjects .noHalfTimeCont .viewCaseArrow, .mobileProjects .sparkCont .viewCaseArrow {
+  width: 160px;
+}
+
+.vodafoneCont .viewCase, .choosicCont .viewCase, .noHalfTimeCont .viewCase, .sparkCont .viewCase {
+  position: relative;
+  top: 205px;
+}
+
+.choosicCont .viewCase p, .noHalfTimeCont .viewCase p, .sparkCont .viewCase p {
+  display: inline-block;
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 23px;
+  top: 180px;
+  margin-left: 38px;
+  /* position: relative; */
+}
+
+.choosicCont .viewCaseArrow, .noHalfTimeCont .viewCaseArrow, .sparkCont .viewCaseArrow {
+  background: url(images/arrow_right@2x.png) no-repeat 20px;
+  background-size: 33px;
+  margin: 0 auto;
+  display: inline-block;
+  height: 11px;
+  width: 200px;
+  text-align: left;
+  top: 184px;
+  /* position: relative; */
+}
+
+.noHalfTime {
+  background: url(images/home-case-nohalftime@2x.png) no-repeat right;
+  background-size: 100%;
+  margin: 0 auto;
+  top: 225px;
+  height: 520px;
+  width: 1000px;
+  float: right;
+  position: relative;
+  opacity: 0.01;
+}
+
+.noHalfTimeCont {
+  height: 350px;
+  width: 350px;
+  background-color: #FFFFFF;
+  box-shadow: 0 6px 25px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
+  float: left;
+  top: -205px;
+  margin-top: 270px;
+}
+
+.spark {
+  background: url(images/home-case-spark@2x.png) no-repeat right;
+  background-size: 100%;
+  margin: 0 auto;
+  top: 70px;
+  height: 520px;
+  width: 1000px;
+  float: left;
+  position: relative;
+  opacity: 0.01;
+}
+
+.sparkCont {
+  height: 350px;
+  width: 350px;
+  background-color: #FFFFFF;
+  box-shadow: 0 6px 25px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
+  float: right;
+  top: -356px;
+  margin-top: 270px;
+}
+
+.contBrands {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  float: left;
+  top: -259px;
+}
+
+.bloomberg {
+  background: url(images/bloomberg@2x.png) no-repeat;
+  background-size: 100%;
+  height: 38px;
+  width: 185px;
+  display: inline-block;
+  margin-right: 120px;
+}
+
+.telia {
+  background: url(images/telia@2x.png) no-repeat;
+  background-size: 100%;
+  height: 49px;
+  width: 125px;
+  display: inline-block;
+  margin-right: 113px;
+}
+
+.vodafone {
+  background: url(images/vodafone@2x.png) no-repeat;
+  background-size: 100%;
+  height: 73px;
+  width: 119px;
+  display: inline-block;
+  position: absolute;
+  top: -8px;
+}
+
+.viber {
+  background: url(images/viber@2x.png) no-repeat;
+  background-size: 100%;
+  height: 51px;
+  width: 107px;
+  display: inline-block;
+  position: absolute;
+  right: 207px;
+}
+
+.happyClientsDesk {
+  float: right;
+  position: relative;
+  top: -10px;
+}
+
+.deskComp500 {
+  opacity: 0.3;
+  color: #23231E;
+  font-family: "Proxima Nova";
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 46px;
+}
+
+.happyClientsDesk p:nth-child(2) {
+  opacity: 0.3;
+  color: #23231E;
+  font-family: "ProximaNova-Regular";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.viewBtn {
+  background: url(images/arrow_right@2x.png) no-repeat 147px;
+  background-size: 33px;
+  margin: 90px auto 0;
+  display: block;
+  height: 54px;
+  width: 220px;
+  border-radius: 100px;
+  border: none;
+  background-color: #F4F4F4;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.viewBtn p {
+  display: inline-block;
+  margin-left: 43px;
+}
+
+
+/* -------------- Main Content End ---------------*/
+
+
+/* -------------- About Content ---------------*/
+
+.about {
+  clear: both;
+  margin: 0 auto;
+  width: 1080px;
+}
+
+.about h1 {
+  color: #23231E;
+  font-family: "Proxima Nova";
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 58px;
+  text-align: center;
+}
+
+.about .underHead {
+  width: 700px;
+  opacity: 0.6;
+  color: #23231E;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.containerAbout {
+  width: 100%;
+  height: 510px;
+  text-align: center;
+  margin-top: 62px;
+}
+
+.containerAboutChild {
+  display: inline-block;
+}
+
+.containerAboutChild:nth-child(1) {
+  float: left;
+  width: 307px;
+}
+
+.containerAboutChild:nth-child(2) {
+  display: inline-block;
+  margin: 0 auto;
+  width: 372px;
+}
+
+.containerAboutChild:nth-child(3) {
+  width: 235px;
+  float: right;
+  position: relative;
+  z-index: 1000;
+}
+
+.containerAboutChild h3 {
+  color: #23231E;
+  font-family: "Proxima Nova";
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 34px;
+  text-align: center;
+}
+
+.containerAboutChild>p {
+  height: 56px;
+  width: 180px;
+  opacity: 0.6;
+  color: #23231E;
+  font-family: "ProximaNova-Regular";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  margin: auto;
+  margin-top: 14px;
+}
+
+.containerAboutChild:nth-child(3)>p {
+  width: 235px;
+}
+
+.arrowImg {
+  background: url(images/arrow_graph@2x.png) no-repeat center;
+  background-size: 100%;
+  display: inline-block;
+  height: 277px;
+  width: 37px;
+  margin: 21px auto;
+}
+
+.deUk {
+  display: inline-block;
+  height: 56px;
+  color: #23231E;
+  font-family: "ProximaNova-Regular";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  width: 90px;
+  margin-left: 12px;
+  margin-top: 46px;
+}
+
+.lithuania {
+  display: inline-block;
+  height: 34px;
+  width: 180px;
+  color: #23231E;
+  font-family: "Proxima Nova";
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  margin-left: 12px;
+  margin-top: 141px;
+}
+
+.uaInd {
+  display: inline-block;
+  height: 56px;
+  color: #23231E;
+  font-family: "ProximaNova-Regular";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  width: 90px;
+  margin-left: 12px;
+  margin-top: 221px;
+}
+
+.flag {
+  background: url(images/flag@2x.png) no-repeat center;
+  background-size: 100%;
+  display: inline-block;
+  height: 99px;
+  width: 160px;
+  margin: 21px auto;
+}
+
+.mapFlights {
+  background: url(images/map@2x.png) no-repeat right;
+  background-size: 100%;
+  display: inline-block;
+  height: 707px;
+  width: 645px;
+  position: relative;
+  top: -381px;
+  left: 335px;
+}
+
+.containerOffices h3 {
+  margin-top: 100px;
+  height: 34px;
+  color: #23231E;
+  font-family: "Proxima Nova";
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 34px;
+  text-align: center;
+}
+
+.officesCont {
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+  width: 100%;
+  margin-top: 43px;
+}
+
+.officesCont>div {
+  width: 200px;
+  height: 300px;
+  vertical-align: top;
+  display: inline-block;
+  zoom: 1;
+  position: relative;
+}
+
+.officesCont span {
+  width: 200%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}
+
+.officesCont div div p {
+  display: inline-block;
+}
+
+.officesCont div div {
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.officesCont div div p:nth-child(1) {
+  color: #000000;
+  font-weight: 600;
+}
+
+.officesCont div div p:nth-child(2) {
+  color: #23231E;
+  font-family: "ProximaNova-Regular";
+}
+
+.barImg {
+  background: url(images/barclays_dots.png) no-repeat center;
+  background-size: 100%;
+  display: block;
+  height: 117px;
+  width: 114px;
+  margin: auto;
+  position: absolute;
+  bottom: 57px;
+  left: 40px;
+}
+
+.barImgBtn {
+  background: url(images/barclays_logo@2x.png) no-repeat center;
+  background-size: 100%;
+  display: block;
+  height: 29px;
+  width: 198px;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.bar>div {
+  margin-top: 86px;
+}
+
+.sebImg {
+  background: url(images/seb_dots@2x.png) no-repeat center;
+  background-size: 100%;
+  display: block;
+  height: 198px;
+  width: 114px;
+  margin: auto;
+  position: absolute;
+  bottom: 57px;
+  left: 40px;
+}
+
+.sebImgBtn {
+  background: url(images/seb_logo@2x.png) no-repeat center;
+  background-size: 100%;
+  display: block;
+  height: 40px;
+  width: 107px;
+  margin: auto;
+  position: absolute;
+  bottom: -4px;
+  left: 38px;
+}
+
+.westImg {
+  background: url(images/wu_dots@2x.png) no-repeat center;
+  background-size: 100%;
+  display: block;
+  height: 185px;
+  width: 114px;
+  margin: auto;
+  position: absolute;
+  bottom: 57px;
+  left: 40px;
+}
+
+.westImgBtn {
+  background: url(images/wu_logo@2x.png) no-repeat center;
+  background-size: 100%;
+  display: block;
+  height: 38px;
+  width: 188px;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.west>div {
+  margin-top: 18px;
+}
+
+.swedImg {
+  background: url(images/swedbank_dots@2x.png) no-repeat center;
+  background-size: 100%;
+  display: block;
+  height: 142px;
+  width: 114px;
+  margin: auto;
+  position: absolute;
+  bottom: 57px;
+  left: 40px;
+}
+
+.swedImgBtn {
+  background: url(images/swedbank_logo@2x.png) no-repeat center;
+  background-size: 100%;
+  display: block;
+  height: 42px;
+  width: 193px;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.swed>div {
+  margin-top: 64px;
+}
+
+.cscdImg {
+  background: url(images/csc_dots@2x.png) no-repeat center;
+  background-size: 100%;
+  display: block;
+  height: 60px;
+  width: 114px;
+  margin: auto;
+  position: absolute;
+  bottom: 57px;
+  left: 40px;
+}
+
+.cscImgBtn {
+  background: url(images/csc_logo.png) no-repeat center;
+  background-size: 100%;
+  display: block;
+  height: 63px;
+  width: 80px;
+  margin: auto;
+  position: absolute;
+  bottom: -4px;
+  left: 50px;
+}
+
+.csc>div {
+  margin-top: 146px;
+}
+
+
+/* -------------- About Content End ---------------*/
+
+
+/* -------------- Our Team  ---------------*/
+
+.ourTeam {
+  margin-top: 238px;
+}
+
+.ourTeam h1 {
+  height: 58px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 58px;
+  text-align: center;
+}
+
+.ourTeam .underHead {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  /*  height: 96px;*/
+  width: 700px;
+  opacity: 0.6;
+  color: #23231E;
+}
+
+.line {
+  background: url(images/diagram@2xnew.png) no-repeat center;
+  background-size: 100%;
+  display: block;
+  height: 24px;
+  width: 620px;
+  margin: auto;
+  margin-top: 19px;
+}
+
+.lineGr {
+  background-size: 100%;
+  background: linear-gradient(90deg, #FFD795 0%, #F62F58 100%);
+  display: block;
+  height: 12px;
+  width: 620px;
+  border-radius: 100px;
+  margin: auto;
+  margin-top: 19px;
+}
+
+.borderGr {
+  position: relative;
+  height: 20px;
+  width: inherit;
+  top: -24px;
+  border-right: 3px solid #ffffff;
+  border-radius: 0 100px 100px 0;
+  border-bottom: 3px solid #ffffff;
+  border-top: 3px solid #FFFFFA;
+}
+
+.lineDataCont {
+  margin: 0 auto;
+  width: 620px;
+}
+
+.lineDataCont ul li {
+  display: table-cell;
+  list-style: none;
+}
+
+.lineDataCont ul li div {
+  margin-top: 8px;
+}
+
+.lineDataCont ul li:last-child .borderGr {
+  border: none;
+}
+
+.lineDataCont .lineData {
+  height: 22px;
+  line-height: 22px;
+  color: #23231E;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.lineDataCont .lineStr {
+  height: 22px;
+  line-height: 22px;
+  opacity: 0.6;
+  color: #23231E;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "ProximaNova-Regular"
+}
+
+.lineDataCont ul li div span {
+  display: block;
+  text-align: center;
+}
+
+.lineDataCont .qa {
+  width: 20%;
+}
+
+.lineDataCont .ux-ui {
+  width: 10%;
+}
+
+.lineDataCont .ba-pm {
+  width: 20%;
+}
+
+.lineDataCont .front-end {
+  width: 10%;
+}
+
+.lineDataCont .mobile {
+  width: 20%;
+}
+
+.lineDataCont .back-end {
+  width: 20%;
+}
+
+.back-end div .borderGr {
+  border: none;
+}
+
+.teamPic {
+  background: url(images/team@2x.png) no-repeat center;
+  background-size: 100%;
+  margin: 0 auto;
+  height: 510px;
+  width: 100%;
+  max-width: 1440px;
+}
+
+
+/* -------------- Our Team End ---------------*/
+
+
+/* -------------- Contact ---------------*/
+
+.contact {
+  margin-top: 189px;
+}
+
+.contact h1 {
+  height: 58px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 58px;
+  text-align: center;
+}
+
+.contact .underHead {
+  font-size: 18px;
+  width: 400px;
+  font-weight: 600;
+  line-height: 32px;
+  /*  height: 96px;*/
+  opacity: 0.6;
+  color: #23231E;
+}
+
+.inputInfo input, .inputInfo .inputText {
+  height: 50px;
+  width: 535px;
+  border: 2px solid #dededd;
+  color: rgb(0, 0, 0);
+  cursor: auto;
+  display: block;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: start;
+  text-indent: 0px;
+  text-shadow: none;
+  text-transform: none;
+  box-sizing: border-box;
+  text-indent: 10px;
+  margin: auto;
+  font-size: 16px;
+}
+
+.inputInfo .inputText {
+  height: 180px;
+  margin-top: 15px;
+  padding: 10px 0;
+  color: #23231E;
+  font-family: "ProximaNova-Regular";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  resize: none;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  opacity: 0.6;
+  color: #23231E;
+  font-family: "ProximaNova-Regular";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  opacity: 0.6;
+  color: #23231E;
+  font-family: "ProximaNova-Regular";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  opacity: 0.6;
+  color: #23231E;
+  font-family: "ProximaNova-Regular";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  opacity: 0.6;
+  color: #23231E;
+  font-family: "ProximaNova-Regular";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+input:-moz-placeholder, :-moz-placeholder, input:-moz-placeholder, textarea:-moz-placeholder {
+  text-indent: 10px;
+}
+
+input::-webkit-input-placeholder, ::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  text-indent: 10px;
+}
+
+form .viewBtn {
+  background: url(images/arrow_right@2x.png) no-repeat 126px;
+  background-size: 33px;
+  margin: 27px auto 150px;
+  display: block;
+  height: 54px;
+  width: 220px;
+  border-radius: 100px;
+  border: none;
+  background-color: #F4F4F4;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: left;
+}
+
+form .viewBtn p {
+  display: inline-block;
+  margin-left: 65px;
+}
+
+
+/* -------------- Contact End ---------------*/
+
+
+/* -------------- Footer ---------------*/
+
+.contFooter {
+  background-color: #F4F4F4;
+  height: 80px;
+}
+
+.contFooter .leftSubCont {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.socialCont {
+  margin: 28px auto;
+  margin-left: 60px;
+}
+
+.socialCont div:hover {
+  cursor: pointer;
+}
+
+.face {
+  background: url(images/fb@2x.png) no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 26px;
+  width: 10px;
+}
+
+.drib {
+  background: url(images/dribbble.png) no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 26px;
+  width: 20px;
+}
+
+.linked {
+  background: url(images/lin@2x.png) no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 26px;
+  width: 20px;
+}
+
+.vkon {
+  background: url(images/vk@2x.png) no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 20px;
+  width: 24px;
+}
+
+.youtube {
+  background: url(images/yt.svg) no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 20px;
+  width: 24px;
+}
+
+.face, .drib, .linked, .vkon {
+  margin-right: 30px;
+}
+
+.contFooter .rightSubCont {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+
+.contactCont {
+  margin: 33px auto;
+  float: right;
+  margin-right: 37px;
+}
+
+.contactCont .email {
+  margin-right: 30px;
+}
+
+.contactCont .email span:nth-child(2) {
+  opacity: 0.5;
+  color: #23231E;
+}
+
+.imageEmail {
+  background: url(images/email.svg) no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 15px;
+  width: 20px;
+  position: relative;
+  left: -5px;
+  top: 2px;
+}
+
+.imagePhone {
+  background: url(images/phone.svg) no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 19px;
+  width: 20px;
+  position: relative;
+  left: -5px;
+  top: 5px;
+}
+
+.contactCont .phone span:nth-child(2) {
+  opacity: 0.5;
+  color: #23231E;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+}
+
+
+/* -------------- Footer End ---------------*/
+
+
+/*====================================== Mobile query ======================================*/
+
+@media only screen and (min-width: 768px) {
+  .mobile.container.head, .mobileProjects, .mobileContainer-fluid, .mobileFooter, .aboutMob, .teamMob, .contactMob, .mobFooter {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html, body {
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-style: normal;
+    color: #23231e;
+    -webkit-font-smoothing: antialiased;
+    background: #fff;
+    line-height: 1;
+    overflow-x: hidden;
+  }
+  .wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+  .container.head, .projects, .designAndDev, .about, .ourTeam, .contact, .contFooter {
+    display: none;
+  }
+  .mobile.container.head {
+    padding: 0 30px;
+    max-width: 375px;
+    display: block;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .mobileProjects {
+    margin: 100px auto 0;
+    max-width: 375px;
+    padding: 0 10px;
+  }
+  .contTxtMob {
+    padding: 0 20px;
+  }
+  .intro-text {
+    max-width: 250px;
+    text-align: left;
+    margin-left: 0;
+    position: absolute;
+    z-index: 1;
+    margin-top: 110px;
+  }
+  .intro-text h1 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .mobile.background-video {
+    height: 100vh;
+    position: relative;
+    opacity: 0.3;
+    overflow: hidden;
+    left: -46px;
+    right: 0;
+    width: 100vh;
+  }
+  .mobile.background-video video {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .mobileGradient {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 1));
+    opacity: 1;
+    height: 100vh;
+  }
+  .mobileLogo {
+    background: url(images/logo@2x.png) no-repeat;
+    width: 115px;
+    height: 26px;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 47px;
+  }
+  .mobile .mobEmailImg {
+    background: url(images/email@2x.png) no-repeat;
+    width: 18px;
+    height: 13px;
+    line-height: 17px;
+    background-size: 100%;
+    display: inline-block;
+  }
+  .mobile .mobEmail {
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 11px;
+    position: relative;
+    top: -2px;
+  }
+  .mobile .contactsCont .phone {
+    display: block;
+    margin-top: 10px;
+  }
+  .mobile .mobPhoneImage {
+    background: url(images/phone@2x.png) no-repeat;
+    width: 19px;
+    height: 19px;
+    background-size: 100%;
+    display: inline-block;
+  }
+  .mobile .mobPhone {
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 11px;
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+    color: #23231E;
+    text-decoration: none;
+  }
+  .mobile .contactsCont {
+    position: absolute;
+    z-index: 1;
+    margin-top: 434px;
+  }
+  .arrowDownMob {
+    background: url(images/arrow_down@2x.png) no-repeat;
+    width: 8px;
+    height: 53px;
+    background-size: 100%;
+    position: absolute;
+    bottom: 4px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .mobileContainer-fluid {
+    margin: 80px auto 0;
+    max-width: 375px;
+  }
+  .mobSectionHead {
+    padding: 0 30px;
+  }
+  .mobSectionHead h1, .mobileProjects h1, .aboutMob h1 {
+    margin-bottom: 13px;
+    height: 104px;
+    width: 255px;
+    color: #23231E;
+    font-family: "Proxima Nova";
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 52px;
+  }
+  .mobSectionHead p, .mobileProjects p, .aboutMob p {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 300px;
+    font-weight: 600;
+    font-style: normal;
+    opacity: 0.6;
+  }
+  .feature-box {
+    padding: 50px 30px 0;
+  }
+  .feature-box .icon {
+    height: 80px;
+    background-position: left top;
+  }
+  .development-icon {
+    background: url(images/development.png) center no-repeat;
+    background-size: 42px 40px;
+    width: 42px;
+    height: 40px;
+  }
+  .mobile-icon {
+    background: url(images/apps.png) center no-repeat;
+    background-size: 35px 50px;
+    width: 42px;
+    height: 40px;
+  }
+  .design-icon {
+    background: url(images/design.png) center no-repeat;
+    background-size: 44px 40px;
+    width: 42px;
+    height: 40px;
+  }
+  .feature-box .title {
+    margin-bottom: 13px;
+    height: 34px;
+    width: 265px;
+    color: #23231E;
+    font-family: "Proxima Nova";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 34px;
+  }
+  .feature-box .text {
+    max-width: 300px;
+    font-style: normal;
+    /*height: 84px;
+    width: 315px;*/
+    opacity: 0.6;
+    color: #23231E;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .mobileProjectsRowChild .hireBtn {
+    margin-left: 0;
+  }
+  .vodafonePicMob {
+    background: url(images/home-case-vodafone_m.png) no-repeat;
+    margin: 0 auto;
+    height: 264px;
+    position: relative;
+    top: 120px;
+    opacity: 0.01;
+    width: 100%;
+    will-change: opacity;
+  }
+  .mobileProjects .vodafoneCont {
+    height: 215px;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 25px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: 420px auto 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    float: none;
+    width: -moz-calc(100% - 30px);
+    width: -o-calc(100% - 30px);
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+    padding: 20px 30px 35px 30px;
+  }
+  .mobileProjects .viewCase p {
+    opacity: 1;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 83px;
+    margin: 0 auto;
+  }
+  .mobileProjects .vodafoneCont h2, .mobileProjects .choosicCont h2, .mobileProjects .noHalfTimeCont h2, .mobileProjects .sparkCont h2 {
+    margin: 0 auto;
+    height: 35px;
+    color: #000000;
+    font-family: "Proxima Nova";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 35px;
+  }
+  .choosicPicMob {
+    background: url(images/home-case-choosic_m.png) no-repeat;
+    margin: 0 auto;
+    height: 264px;
+    position: relative;
+    top: 370px;
+    opacity: 0.01;
+    width: 100%;
+    will-change: opacity;
+  }
+  .mobileProjects .choosicCont {
+    height: 215px;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 25px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: 420px auto 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    float: none;
+    width: -moz-calc(100% - 30px);
+    width: -o-calc(100% - 30px);
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+    padding: 20px 30px 35px 30px;
+  }
+  .mobileProjects .choosicCont .underHead, .mobileProjects .noHalfTimeCont .underHead, .mobileProjects .sparkCont .underHead, .mobileProjects .vodafoneCont .underHead {
+    height: 0;
+    top: 65px;
+    margin: 0 auto;
+    max-width: 275px;
+    width: 271px;
+    opacity: 0.5;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .mobileProjects .vodafoneCont .viewCase, .mobileProjects .choosicCont .viewCase, .mobileProjects .noHalfTimeCont .viewCase, .mobileProjects .sparkCont .viewCase {
+    top: 165px;
+    position: absolute;
+  }
+  .noHalfTimePicMob {
+    background: url(images/home-case-nohalftime_m.png) no-repeat;
+    margin: 0 auto;
+    height: 264px;
+    position: relative;
+    top: 130px;
+    opacity: 0.01;
+    width: 100%;
+    will-change: opacity;
+  }
+  .mobileProjects .noHalfTimeCont {
+    height: 215px;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 25px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: 300px auto 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    float: none;
+    width: -moz-calc(100% - 30px);
+    width: -o-calc(100% - 30px);
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+    padding: 20px 30px 35px 30px;
+  }
+  .sparkMob {
+    background: url(images/home-case-spark_m.png) no-repeat;
+    margin: 0 auto;
+    height: 264px;
+    position: relative;
+    top: -10px;
+    opacity: 0.01;
+    width: 100%;
+    will-change: opacity;
+  }
+  .mobileProjects .sparkCont {
+    height: 215px;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 25px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: 70px auto 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    float: none;
+    top: 0;
+    width: -moz-calc(100% - 30px);
+    width: -o-calc(100% - 30px);
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+    padding: 20px 30px 35px 30px;
+  }
+  .mobileProjects .contBrandsMob {
+    position: relative;
+    top: 50px;
+    height: 200px;
+  }
+  .mobCompBloomberg {
+    background: url(images/bloomberg.png) no-repeat;
+    background-size: 100%;
+    height: 54px;
+    width: 140px;
+    left: 31px;
+    position: absolute;
+  }
+  .mobCompTelia {
+    background: url(images/telia.png) no-repeat;
+    background-size: 100%;
+    height: 54px;
+    width: 98px;
+    position: absolute;
+    right: 30px;
+    top: -6px;
+  }
+  .mobCompVodafone {
+    background: url(images/vodafone.png) no-repeat;
+    background-size: 100%;
+    height: 73px;
+    width: 109px;
+    top: 62px;
+    left: 35px;
+    position: absolute;
+  }
+  .mobCompViber {
+    background: url(images/viber.png) no-repeat;
+    background-size: 100%;
+    height: 54px;
+    width: 109px;
+    top: 72px;
+    right: 24px;
+    position: absolute;
+  }
+  .mobileProjects .contBrandsMob .mobComp500 {
+    position: absolute;
+    top: 160px;
+    left: 34px;
+    font-size: 40px;
+    opacity: 0.3;
+    font-family: 'Proxima Nova', sans-serif;
+    height: 46px;
+    width: 172px;
+    opacity: 0.3;
+    color: #23231E;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 46px;
+  }
+  .mobileProjectsRowChild.mobileRowRight {
+    padding-left: 30px;
+    margin-top: 115px;
+  }
+  .contBrandsMob p:nth-child(2) {
+    position: absolute;
+    top: 202px;
+    left: 36px;
+    height: 32px;
+    width: 125px;
+    opacity: 0.3;
+    color: #23231E;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+  .mobileProjects .mobileProjectsRowChild .hireBtn {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .mobileProjects .mobileProjectsRowChild .hireBtn p {
+    opacity: 1;
+  }
+  .aboutMob {
+    margin: 100px auto 0;
+    max-width: 375px;
+    padding: 0 30px;
+    overflow: hidden;
+  }
+  .aboutMob h1 {
+    width: 50px;
+  }
+  .aboutMobPay {
+    margin-top: 50px;
+  }
+  .aboutMobPay p {
+    width: 155px;
+    font-size: 15px;
+  }
+  .aboutMobPay h3, .containerOfficesMob h3 {
+    color: #23231E;
+    font-family: "Proxima Nova";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: left;
+  }
+  .aboutMobPay>p {
+    margin-top: 20px;
+    font-family: "Proxima Nova";
+  }
+  .containerAboutMob>p {
+    height: 56px;
+    width: 180px;
+    opacity: 0.6;
+    color: #23231E;
+    font-family: "ProximaNova-Regular";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    margin: auto;
+    margin-top: 14px;
+  }
+  .aboutMobPay .arrowGraph p:nth-child(-n+4) {
+    opacity: 1;
+    width: 65px;
+    font-family: "Proxima Nova";
+  }
+  .aboutMobPay .arrowGraph p:nth-child(3) {
+    font-size: 28px;
+  }
+  .aboutMobPay.memberMob {
+    margin-top: 70px;
+  }
+  .memberMob p {
+    width: 170px;
+    margin-top: 10px;
+  }
+  .mobMap {
+    background: url(images/map@2x.png) no-repeat;
+    background-size: 100%;
+    height: 410px;
+    width: 375px;
+    position: relative;
+    top: -27px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .memberMob.zIndex {
+    position: absolute;
+    z-index: 1;
+  }
+  .zIndex p {
+    width: 223px;
+  }
+  .rowChldLeft {
+    width: 49%;
+    display: inline-block;
+  }
+  .rowChldRight {
+    width: 49%;
+    display: inline-block;
+  }
+  .rowBarclays {
+    background: url(images/barclays_logo_m@2x.png) no-repeat;
+    background-size: 100%;
+    height: 32px;
+    width: 112px;
+  }
+  .rowDotsBarclays {
+    background: url(images/barclays_dots_m@2x.png) no-repeat;
+    background-size: 100%;
+    height: 45px;
+    width: 83px;
+  }
+  .officesContMob {
+    margin-top: 35px;
+  }
+  .rowTxt {
+    position: relative;
+    top: -5px;
+  }
+  .rowTxt span:nth-child(1) {
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .rowTxt span:nth-child(2) {
+    color: #23231E;
+    font-family: "ProximaNova-Regular";
+    opacity: 0.6;
+    font-size: 14px;
+  }
+  .rowMob {
+    margin-top: 30px;
+  }
+  .rowSeb {
+    background: url(images/seb_logo_m@2x.png) no-repeat;
+    background-size: 100%;
+    height: 32px;
+    width: 50px;
+  }
+  .rowDotsSeb {
+    background: url(images/seb_dots_m@2x.png) no-repeat;
+    background-size: 100%;
+    height: 45px;
+    width: 153px;
+  }
+  .rowWestern {
+    background: url(images/wu_logo_m@2x.png) no-repeat;
+    background-size: 100%;
+    height: 32px;
+    width: 100px;
+  }
+  .rowDotsWestern {
+    background: url(images/wu_dots_m@2x.png) no-repeat;
+    background-size: 100%;
+    height: 45px;
+    width: 142px;
+  }
+  .rowSwed {
+    background: url(images/swedbank_logo@2x.png) no-repeat;
+    background-size: 100%;
+    height: 32px;
+    width: 109px;
+  }
+  .rowDotsSwed {
+    background: url(images/swedbank_dots_m@2x.png) no-repeat;
+    background-size: 100%;
+    height: 45px;
+    width: 102px;
+  }
+  .rowCsc {
+    background: url(images/csc_logo@2x.png) no-repeat;
+    background-size: 100%;
+    height: 32px;
+    width: 47px;
+  }
+  .rowDotsCsc {
+    background: url(images/csc_dots_m@2x.png) no-repeat;
+    background-size: 100%;
+    height: 45px;
+    width: 35px;
+  }
+  .teamMob {
+    max-width: 375px;
+    margin: 100px auto 0;
+    padding: 0 30px;
+    height: 720px;
+  }
+  .teamMob h1 {
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 13px;
+  }
+  .teamMob p {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 300px;
+    font-family: "ProximaNova-Regular";
+    font-weight: 600;
+    font-style: normal;
+    opacity: 0.6;
+    margin-bottom: 80px;
+  }
+  .teamMob .lineGr {
+    width: inherit;
+  }
+  .teamMob .contLine .lineDataCont ul li:nth-child(odd) div span:nth-child(n+2) {
+    position: relative;
+    top: -89px;
+  }
+  .teamMob .lineStr {
+    font-size: 11px;
+  }
+  .teamMob .lineDataCont {
+    width: inherit;
+  }
+  .teamPicMob {
+    background: url(images/team_m@2x.png) no-repeat center;
+    background-size: 100%;
+    margin: 0 auto;
+    height: 299px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+  .contactMob {
+    max-width: 375px;
+    margin: 100px auto 0;
+    padding: 0 30px;
+    height: 550px;
+  }
+  .contactMob h1 {
+    width: 200px;
+    font-size: 42px;
+    line-height: 47px;
+    margin-bottom: 13px;
+  }
+  .contactMob p {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 300px;
+    font-family: "ProximaNova-Regular";
+    font-weight: 600;
+    font-style: normal;
+    opacity: 0.6;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .contactMob .underHead {
+    margin-left: 0;
+  }
+  .contactMob form .inputInfo input, .contactMob .inputInfo .inputText {
+    width: 100%;
+  }
+  .contactMob .viewBtn {
+    margin: 27px auto 0;
+    width: 200px;
+    float: left;
+    background: url(images/arrow_right@2x.png) no-repeat 112px;
+    background-size: 33px;
+    display: block;
+    height: 51px;
+    border-radius: 100px;
+    border: none;
+    background-color: #F4F4F4;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    text-align: left;
+  }
+  .contactMob .viewBtn p {
+    margin-bottom: 0;
+    opacity: 1;
+    margin-left: 55px;
+    color: #23231E;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+  }
+  .contactMob form .inputInfo input, .contactMob form .inputInfo textarea {
+    -webkit-appearance: none;
+    border-radius: 0;
+  }
+  .mobFooter {
+    margin-top: 85px;
+  }
+  .mobFooter .contFooterMob {
+    background-color: #F4F4F4;
+    height: 200px;
+  }
+  .mobFooter .contFooterMob .contactsCont {
+    bottom: 100px;
+    z-index: 1;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 50px 30px 0;
+  }
+  .mobFooter .contFooterMob .email {
+    font-size: 16px;
+    display: inline-block;
+  }
+  .mobFooter .contFooterMob .mobEmailImg {
+    background: url(images/email@2x.png) no-repeat;
+    width: 18px;
+    height: 13px;
+    line-height: 17px;
+    background-size: 100%;
+    display: inline-block;
+  }
+  .mobFooter .contFooterMob .mobEmail {
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 11px;
+    position: relative;
+    top: -2px;
+    opacity: 0.5;
+  }
+  .mobFooter .contFooterMob .contactsCont .phone {
+    display: block;
+    margin-top: 10px;
+  }
+  .mobFooter .contFooterMob .mobPhoneImage {
+    background: url(images/phone@2x.png) no-repeat;
+    width: 19px;
+    height: 19px;
+    background-size: 100%;
+    display: inline-block;
+  }
+  .mobFooter .contFooterMob .mobPhone {
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 11px;
+    position: relative;
+    top: -5px;
+    opacity: 0.5;
+  }
+  .mobFooter .contFooterMob .socialCont {
+    margin-left: 0;
+    margin: 40px auto 0;
+  }
+  @media only screen and (max-height: 480px) {
+    .mobile.container.head .intro-text h1 {
+      line-height: 40px;
+    }
+    .mobile .contactsCont {
+      top: 365px;
+    }
+  }
+}
